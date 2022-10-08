@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="526084d7-1459-4ac3-a531-297e3b5dff55" name="默认更改列表" comment="" />
+    <list default="true" id="526084d7-1459-4ac3-a531-297e3b5dff55" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b9e23624-eea1-491c-b2c5-dfcc1e956bda.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b9e23624-eea1-491c-b2c5-dfcc1e956bda.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,11 +58,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/environment/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\environment\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="D:\计算机学习\JavaWeb\环境\apache-maven-3.8.4\maven-repo" />
+        <option name="mavenHome" value="D:/计算机学习/JavaWeb/环境/apache-maven-3.8.4" />
+        <option name="userSettingsFile" value="D:\计算机学习\JavaWeb\环境\apache-maven-3.8.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -77,6 +87,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gw/pojo" />
@@ -84,7 +95,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27931035" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -137,6 +148,7 @@
       <workItem from="1664070461584" duration="12542000" />
       <workItem from="1664352778779" duration="11152000" />
       <workItem from="1664502478639" duration="24341000" />
+      <workItem from="1665211945242" duration="182000" />
     </task>
     <servers />
   </component>
@@ -160,6 +172,10 @@
       <screen x="0" y="0" width="1280" height="672" />
     </state>
     <state x="404" y="206" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.672@0.0.1280.672" timestamp="1664415024177" />
+    <state x="457" y="112" key="FileChooserDialogImpl" timestamp="1665211985286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="112" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1665211985286" />
     <state width="1237" height="117" key="GridCell.Tab.0.bottom" timestamp="1664527789322">
       <screen x="0" y="0" width="1280" height="672" />
     </state>
@@ -220,10 +236,11 @@
     </state>
     <state width="1877" height="344" key="GridCell.Tab.2.right/0.0.1280.672/1920.-182.1920.1032@1920.-182.1920.1032" timestamp="1662458229984" />
     <state width="1237" height="117" key="GridCell.Tab.2.right/0.0.1280.672@0.0.1280.672" timestamp="1664527789322" />
-    <state x="157" y="0" key="SettingsEditor" timestamp="1663311603090">
-      <screen x="0" y="0" width="1280" height="672" />
+    <state x="188" y="0" key="SettingsEditor" timestamp="1665211999611">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="157" y="0" key="SettingsEditor/0.0.1280.672@0.0.1280.672" timestamp="1663311603090" />
+    <state x="188" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1665211999611" />
     <state width="647" height="343" key="XDebugger.FullValuePopup" timestamp="1662969384927">
       <screen x="0" y="0" width="1280" height="672" />
     </state>

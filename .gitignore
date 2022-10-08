@@ -1,0 +1,31 @@
+*.txt  #忽略所有txt文件
+!lib.txt  #lib除外
+/temp  #仅忽略根目录下的TODO文件，不包括其他目录temp
+build/  #忽略build目录下的所有文件
+doc/*.txt  #会忽略doc中的txt文件，但不包括doc子文件夹中的txt文件
+*.class
+*.log
+*.lock
+
+#package
+*.jar
+*.war
+*.ear
+target/
+
+#idea
+.idea/
+*.iml
+
+*velocity.log*
+
+#STS
+.apt_generated
+.factorypath
+.springBeans
+
+#IntelliJ Idea
+*.iml
+*.ipr
+*.iws
+.idea
