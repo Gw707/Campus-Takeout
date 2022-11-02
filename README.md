@@ -11,11 +11,11 @@
 
 如果git使用不了直接下载zip压缩包，解压到本地代码目录
 
-### 2、运行db_reggie.sql文件，创建数据库
+### 2、运行campus.sql文件，创建数据库
 
 ### 3、调一些设置，在application.yml中将设置改成本地的设置
 
-### 4、运行ReggieApplication.java启动项目
+### 4、运行SpringBootApplication启动项目
 
 
 
