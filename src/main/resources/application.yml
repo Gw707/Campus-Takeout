@@ -19,4 +19,4 @@ mybatis-plus:
       id-type: ASSIGN_ID
 
 reggie:
-  path: D:\\code\java\reggie\img\
+  path: H:\Code\reggie-takeout\img\

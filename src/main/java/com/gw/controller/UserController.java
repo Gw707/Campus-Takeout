@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.Map;
@@ -88,6 +89,12 @@ public class UserController {
         }
 
         return Status.success("登录成功");
+    }
+
+    @PostMapping("/loginout")
+    public Status<String> logout(HttpServletRequest httpServletRequest){
+        httpServletRequest.getSession().removeAttribute("user");
+        return Status.success("退出成功");
     }
 
 

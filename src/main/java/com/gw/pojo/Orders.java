@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 
 /**
  * 订单
+ * 后台管理的订单信息
  */
 @Data
 public class Orders implements Serializable {

@@ -189,7 +189,11 @@
                         const params = {
                             remark:this.note,
                             payMethod:1,
-                            addressBookId:this.address.id
+                            addressBookId:this.address.id,
+                            userName:this.username,
+                            consignee:this.consignee,
+                            phone: this.phone,
+                            orderDetails:this.cartData
                         }
                         const res = await addOrderApi(params)
                         if(res.code === 1){

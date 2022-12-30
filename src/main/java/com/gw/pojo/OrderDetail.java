@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 
 /**
  * 订单明细
+ * 显示给客户的订单信息
  */
 @Data
 public class OrderDetail implements Serializable {
