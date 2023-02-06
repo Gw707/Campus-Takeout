@@ -50,31 +50,7 @@ public class OrdersController {
 
     @PostMapping("/submit")
     public Status<String> submit(@RequestBody OrdersDto orders, HttpSession session){
-        AddressBook addressBook = addressBookService.getById(orders.getAddressBookId());
-        Long orderId = System.currentTimeMillis();
-        System.out.println(orders.toString());
-        System.out.println(orders.getAddressBookId());
-        for (OrderDetail orderDetail : orders.getOrderDetails()) {
-            orderDetail.setOrderId(orderId);
-            orderDetailService.save(orderDetail);
-        }
-        Orders order = new Orders();
-        BeanUtils.copyProperties(orders, order);
-        order.setAddress(addressBook.getDetail());
-        order.setNumber(orderId.toString());  //orderId -- number
-        order.setPhone(addressBook.getPhone());
-        order.setOrderTime(LocalDateTime.now());
-        order.setUserId(BaseContext.getCurrentId());
-        User user = userService.getById(BaseContext.getCurrentId());
-        order.setUserName(user.getName());
-        order.setCheckoutTime(LocalDateTime.now());
-        order.setAmount(BigDecimal.ONE);
-        System.out.println(order.toString());
-
-
-        ordersService.save(order);
-
-        return Status.success("提交成功");
+        return ordersService.saveAll(orders);
     }
 
     @GetMapping("/page")

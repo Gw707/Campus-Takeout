@@ -117,12 +117,14 @@ public class EmployeeController {
 
         LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper<>();
 
-        queryWrapper.like(!StringUtils.isEmpty(name), Employee::getName, name);
+        if (name != null || name != "") {
+            queryWrapper.like(!StringUtils.isEmpty(name), Employee::getName, name); //where name like %员%
+        }
 
         queryWrapper.orderByDesc(Employee::getUpdateTime);
+//        queryWrapper.eq( Employee::getName, name);
 
         employeeService.page(pageInfo, queryWrapper);
-
         return Status.success(pageInfo);
     }
 
